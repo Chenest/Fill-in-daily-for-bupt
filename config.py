@@ -5,7 +5,7 @@
     'phone': '12345678910',
     'direction': '中门',
     'reason': '吃饭',
-    'counsellor': '李四',
+    'counsellor': '李四',# 辅导员
     'campus': '西土城校区'
 }
 
