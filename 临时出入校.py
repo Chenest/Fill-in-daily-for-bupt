@@ -115,7 +115,7 @@ def login(user):
     headers['Cookie'] = cookie
     new_url = 'https://service.bupt.edu.cn/site/apps/launch'
     data = {
-        'data': '{"app_id":"578","node_id":"","form_data":{"1716":{"User_5":"' + user['name'] + '","User_7":"' + user['username'] + '","User_9":"信息与通信工程学院","User_11":"' + user['phone'] + '","Alert_65":"","Alert_67":"","Count_74":{"type":0,"value":1},"Input_28":"' + user['direction'] + '","Radio_52":{"value":"1","name":"本人已阅读并承诺"},"Radio_73":{"value":"1","name":"是"},"Calendar_47":"' + now + 'T02:28:39.000Z","Calendar_50":"' + now + 'T02:28:38.000Z","Calendar_62":"' + now + 'T00:00:00+08:00","Calendar_69":"' + now + 'T00:00:00+08:00","SelectV2_58":[{"name":"' + user['campus'] + '","value":"2","default":0,"imgdata":""}],"Validate_63":"","Validate_66":"","MultiInput_30":"' + user['reason'] + '","UserSearch_60":{"uid":' + uid + ',"name":"' + user['counsellor'] + '","number":' + number + '}}},"userview":1}',
+        'data': '{"app_id":"578","node_id":"","form_data":{"1716":{"User_5":"' + user['name'] + '","User_7":"' + user['username'] + '","User_9":"信息与通信工程学院","User_11":"' + user['phone'] + '","Alert_65":"","Alert_67":"","Input_28":"' + user['direction'] + '","Radio_52":{"value":"1","name":"本人已阅读并承诺"},"Variate_74":"否","Calendar_47":"' + now + 'T08:13:27.000Z","Calendar_50":"' + now + 'T08:13:26.000Z","Calendar_62":"2' + now + 'T00:00:00+08:00","SelectV2_58":[{"name":"' + user['campus'] + '","value":"2","default":0,"imgdata":""}],"Validate_63":"","Validate_66":"","DataSource_75":"","MultiInput_30":"' + user['reason'] + '","UserSearch_60":{"uid":73685,"name":"' + user['counsellor'] + '","number":' + number + '}}},"userview":1}',
         'starter_depart_id': '181841',
         'agent_uid': '',
         'test_uid': '0'
